@@ -14,7 +14,6 @@ public class TypeCastingDemo {
 		
 		double discount = 10.75;
 		int roundedDiscount = (int)discount;
-		System.out.println(roundedDiscount);
 		
 		double finalAmount = totalPrice - roundedDiscount;
 		
