@@ -18,6 +18,7 @@ public class InstanceOfDemo1 {
 		Person5 person = new Person5();
 		Employee emp = new Employee();
 		Manager manager = new Manager();
+		
 		System.out.println(emp instanceof Employee);
 		System.out.println(emp instanceof Person5);
 		System.out.println(emp instanceof Manager);
@@ -28,7 +29,8 @@ public class InstanceOfDemo1 {
 		
 		System.out.println(person instanceof Manager);
 		System.out.println(person instanceof Person5);
-		
+		System.out.println(person instanceof Employee);
+
 	}
 
 }
