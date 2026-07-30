@@ -37,6 +37,12 @@ public class InstanceOfDemo2 {
 			CreditCard cc = (CreditCard)payment;
 			cc.swipeCard();
 		}
+		
+		else if (payment instanceof PayPal)
+		{
+			PayPal pp = (PayPal)payment;
+			pp.loginToPaypal();
+		}
 	}
 
 }
