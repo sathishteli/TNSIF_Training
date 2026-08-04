@@ -15,7 +15,7 @@ public class ScanerClassDemo1 {
 		
 		System.out.println("my name is : "+ name);
 		System.out.println("my age is : "+ age);
-
+		sc.close();
 	}
 
 }
