@@ -10,9 +10,15 @@ public class ArithmeticException {
 		int num2 = 50 / 10;
 		System.out.println(num2);
 		
-		int num3 = 50 / 0; //distrubing the flow of program, throws an error.
-		System.out.println(num3);
+		// using try catch to solve problem
+		try 
+		{
+			int num3 = 50 / 0; //distrubing the flow of program, throws an error.
+			System.out.println(num3);
 		
+		}catch(Exception e) {
+			System.out.println(e);
+		}
 		int num4 = 50 / 25; //wont be executed.
 		System.out.println(num4);
 	}
