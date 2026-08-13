@@ -10,10 +10,10 @@ public class ArithmeticException {
 		int num2 = 50 / 10;
 		System.out.println(num2);
 		
-		int num3 = 50 / 0;
+		int num3 = 50 / 0; //distrubing the flow of program, throws an error.
 		System.out.println(num3);
 		
-		int num4 = 50 / 25;
+		int num4 = 50 / 25; //wont be executed.
 		System.out.println(num4);
 	}
 
