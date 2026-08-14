@@ -1,6 +1,6 @@
 package org.tnsif.acc.c2tc.exceptionhandking;
 
-public class ArithmeticException {
+public class ArithmeticExceptionDemo {
 
 	public static void main(String[] args) {
 		
