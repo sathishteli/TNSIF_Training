@@ -29,10 +29,10 @@ public class Vector2 {
 
         // Start thread1 first
         thread1.start();
-        //thread1.join(); // wait until thread1 completes
+        thread1.join(); // wait until thread1 completes
 
         // Then start thread2
         thread2.start();
-        //thread2.join(); // wait until thread2 completes
+        thread2.join(); // wait until thread2 completes
     }
 }
