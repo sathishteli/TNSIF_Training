@@ -60,10 +60,7 @@ public class ComparatorDemo {
 		
 		System.out.println();
 		
-		Collections.sort(people , new AgeComparator());
-		System.out.println("Sorted by age");
-		System.out.println();
-		
+
 	}
 
 }
