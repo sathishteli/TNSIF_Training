@@ -16,7 +16,10 @@ public class Stack1 {
 	       
 	       System.out.println("Pos of 34 : "+stack.search(34));
 	       System.out.println("Pos of 56 : "+stack.search(56));
-		
+	       
+	       for(int item : stack) {
+	    	   System.out.println(item);
+	       }
 	}
 
 }
