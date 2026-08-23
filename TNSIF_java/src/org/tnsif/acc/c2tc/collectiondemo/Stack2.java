@@ -24,6 +24,13 @@ public class Stack2 {
 		System.out.println(stack);
 		
 		System.out.println("Is stack empty "+stack.isEmpty());
+		
+		stack.push(10); //top1   //4
+		stack.push(20); //top2   //3
+		stack.push(30); //top3   //2
+		stack.push(40); //top4   //1
+		
+		System.out.println("Stack after adding elements again: "+stack);
 	}
 
 }
