@@ -5,7 +5,8 @@ public class VariableDemo {
 	
 	void print() {
 		String msg="Hello";
-		System.out.println(msg);
+		String msg2 = "World!";
+		System.out.println(msg +" " +msg2);
 	}
 	
 	static String message="Hello World!";
