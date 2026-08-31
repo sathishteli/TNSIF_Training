@@ -16,6 +16,7 @@ public class Stack2 {
 		System.out.println("Top element "+stack.peek());
 		
 		System.out.println("Element popped "+stack.pop());
+		System.out.println("Element popped "+stack.pop());
 		
 		System.out.println(stack);
 		
